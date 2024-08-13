@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "XperienceByKentico": {
+      "commandName": "Project",
+      "applicationUrl": "http://localhost:23826",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
