@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XperienceByKentico", "XperienceByKentico.csproj", "{B23B84B3-BF0F-432F-B97A-3BB8A55150A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XperienceByKentico", "XperienceByKentico.csproj", "{B0ADB350-25B1-4DBF-A07C-F777ECBC4D5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B23B84B3-BF0F-432F-B97A-3BB8A55150A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B23B84B3-BF0F-432F-B97A-3BB8A55150A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B23B84B3-BF0F-432F-B97A-3BB8A55150A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B23B84B3-BF0F-432F-B97A-3BB8A55150A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0ADB350-25B1-4DBF-A07C-F777ECBC4D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0ADB350-25B1-4DBF-A07C-F777ECBC4D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0ADB350-25B1-4DBF-A07C-F777ECBC4D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0ADB350-25B1-4DBF-A07C-F777ECBC4D5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
