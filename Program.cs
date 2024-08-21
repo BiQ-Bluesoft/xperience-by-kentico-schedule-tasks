@@ -1,5 +1,7 @@
-﻿using System;
+﻿using System.Threading.Tasks;
+using CMS.Base;
 using CMS.DataEngine;
+using CMS.Membership;
 using Hangfire;
 using Kentico.Membership;
 using Kentico.Web.Mvc;
@@ -35,12 +37,6 @@ builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
-// Get IRecurringJobManager service from the application dependency injection container.
-var manager = app.Services.GetRequiredService<IRecurringJobManager>();
-
-// Configure desired schedule tasks. 
-manager.AddOrUpdate("TestJob", () => Console.WriteLine("TestJob"), Cron.Minutely());
-
 app.InitKentico();
 
 app.UseStaticFiles();
@@ -61,4 +57,20 @@ app.MapHangfireDashboard(new DashboardOptions
 app.Kentico().MapRoutes();
 app.MapGet("/", () => "The XperienceByKentico site has not been configured yet.");
 
+// Get IRecurringJobManager service from the application dependency injection container.
+var manager = app.Services.GetRequiredService<IRecurringJobManager>();
+
+// Configure desired schedule tasks. 
+manager.AddOrUpdate("ScheduleTasks.TestJob", () => ScheduleTasks.TestJob(), Cron.Minutely());
+
 app.Run();
+
+class ScheduleTasks
+{
+    public static async Task TestJob()
+    {
+        ContextUtils.ResetCurrent();
+
+        await UserInfo.Provider.Get().GetEnumerableTypedResultAsync();
+    }
+}

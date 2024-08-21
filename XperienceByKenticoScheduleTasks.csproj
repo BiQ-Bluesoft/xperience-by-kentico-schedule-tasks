@@ -7,9 +7,9 @@
     <PackageReference Include="Hangfire.SqlServer" Version="1.8.14" />
     <PackageReference Include="Hangfire.AspNetCore" Version="1.8.14" />
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.1" />
-    <PackageReference Include="kentico.xperience.admin" Version="29.2.2" />
-    <PackageReference Include="kentico.xperience.azurestorage" Version="29.2.2" />
-    <PackageReference Include="kentico.xperience.imageprocessing" Version="29.2.2" />
-    <PackageReference Include="kentico.xperience.webapp" Version="29.2.2" />
+    <PackageReference Include="kentico.xperience.admin" Version="29.3.3" />
+    <PackageReference Include="kentico.xperience.azurestorage" Version="29.3.3" />
+    <PackageReference Include="kentico.xperience.imageprocessing" Version="29.3.3" />
+    <PackageReference Include="kentico.xperience.webapp" Version="29.3.3" />
   </ItemGroup>
 </Project>
