@@ -29,4 +29,4 @@ jobs:
     - name: Nuget push
       env:
         YOUR_GITHUB_PAT: ${{ secrets.YOUR_GITHUB_PAT }}
-      run: dotnet nuget push "./packages/*.snupkg" --source "https://api.nuget.org/v3/index.json" --api-key $YOUR_GITHUB_PAT 
+      run: dotnet nuget push "./packages/*.nupkg" --source "https://api.nuget.org/v3/index.json" --api-key $YOUR_GITHUB_PAT 
