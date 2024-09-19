@@ -5,7 +5,7 @@
         <Copyright>Copyright © $(Company) $([System.DateTime]::Now.Year)</Copyright>
         <Trademark>$(Company)™</Trademark>
         <VersionPrefix>0.0.1</VersionPrefix>
-        <VersionSuffix></VersionSuffix>
+        <VersionSuffix>preview1</VersionSuffix>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
 
         <PackageProjectUrl>https://github.com/BiQ-Bluesoft/xperience-by-kentico-schedule-tasks</PackageProjectUrl>
