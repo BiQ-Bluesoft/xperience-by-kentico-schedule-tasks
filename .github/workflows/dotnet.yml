@@ -5,7 +5,7 @@ name: .NET
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "master", feat/hangfire-xperience-integration ]
   pull_request:
     branches: [ "master" ]
 
