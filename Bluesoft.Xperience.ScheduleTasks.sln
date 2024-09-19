@@ -16,7 +16,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluesoft.XbK.ScheduleTasks", "src\Bluesoft.Xperience.ScheduleTasks\Bluesoft.XbK.ScheduleTasks.csproj", "{45E5F493-6255-4346-9926-C9FA0557D093}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BiQBluesoft.XbK.ScheduleTasks", "src\Bluesoft.Xperience.ScheduleTasks\BiQBluesoft.XbK.ScheduleTasks.csproj", "{45E5F493-6255-4346-9926-C9FA0557D093}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{00652FDF-BC6D-452C-A173-B2F154B1C3FF}"
 EndProject
