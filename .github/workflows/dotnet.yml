@@ -23,7 +23,7 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build --configuration Release --no-restore
     - name: Publish
       run: dotnet pack ./src/Bluesoft.Xperience.ScheduleTasks/Bluesoft.Xperience.ScheduleTasks.csproj --no-build --output ./package
     - name: Authenticate Nuget.org
