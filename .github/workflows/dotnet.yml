@@ -27,6 +27,6 @@ jobs:
     - name: Publish
       run: dotnet pack ./src/Bluesoft.Xperience.ScheduleTasks/Bluesoft.Xperience.ScheduleTasks.csproj --no-build --output ./package
     - name: Authenticate Nuget.org
-      run: dotnet nuget add source --username "OWNER" --password "$YOUR_GITHUB_PAT" --store-password-in-clear-text --name nuget_publish "https://nuget.pkg.github.com/Bluesoft/index.json"
+      run: dotnet nuget add source --username "OWNER" --password $YOUR_GITHUB_PAT --store-password-in-clear-text --name nuget_publish "https://nuget.pkg.github.com/Bluesoft/index.json"
     - name: Nuget push
       run: dotnet nuget push "./packages/Bluesoft.Xperience.ScheduleTasks.snupkg"  --source "nuget_publish"
