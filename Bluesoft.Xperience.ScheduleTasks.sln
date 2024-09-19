@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1A556330-9F41-496E-B985-D862391901F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0D1A6DFA-0F04-4A20-AD1C-8F704D7769ED}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		global.json = global.json
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluesoft.Xperience.ScheduleTasks", "src\Bluesoft.Xperience.ScheduleTasks\Bluesoft.Xperience.ScheduleTasks.csproj", "{45E5F493-6255-4346-9926-C9FA0557D093}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{00652FDF-BC6D-452C-A173-B2F154B1C3FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluesoft.Xperience.ScheduleTasks.Example", "examples\Bluesoft.Xperience.ScheduleTasks.Example\Bluesoft.Xperience.ScheduleTasks.Example.csproj", "{BD77A52A-A1B5-4855-BDC2-1FDE38E1D0E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45E5F493-6255-4346-9926-C9FA0557D093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45E5F493-6255-4346-9926-C9FA0557D093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45E5F493-6255-4346-9926-C9FA0557D093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45E5F493-6255-4346-9926-C9FA0557D093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD77A52A-A1B5-4855-BDC2-1FDE38E1D0E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD77A52A-A1B5-4855-BDC2-1FDE38E1D0E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD77A52A-A1B5-4855-BDC2-1FDE38E1D0E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD77A52A-A1B5-4855-BDC2-1FDE38E1D0E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{45E5F493-6255-4346-9926-C9FA0557D093} = {1A556330-9F41-496E-B985-D862391901F4}
+		{BD77A52A-A1B5-4855-BDC2-1FDE38E1D0E0} = {00652FDF-BC6D-452C-A173-B2F154B1C3FF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EC3F7A4-4BEC-4875-BEA8-DF48FDB55DA5}
+	EndGlobalSection
+EndGlobal
