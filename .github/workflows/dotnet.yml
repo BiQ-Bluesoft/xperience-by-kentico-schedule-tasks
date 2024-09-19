@@ -25,7 +25,7 @@ jobs:
     - name: Build
       run: dotnet build --configuration Release --no-restore
     - name: Publish
-      run: dotnet pack ./src/Bluesoft.Xperience.ScheduleTasks/BiQBluesoft.XbK.ScheduleTasks.csproj --no-build --output ./packages
+      run: dotnet pack ./src/Bluesoft.Xperience.ScheduleTasks/Bluesoft.Xperience.ScheduleTasks.csproj --no-build --output ./packages
     - name: Nuget push
       env:
         YOUR_GITHUB_PAT: ${{ secrets.YOUR_GITHUB_PAT }}
