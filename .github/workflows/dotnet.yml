@@ -31,4 +31,4 @@ jobs:
         YOUR_GITHUB_PAT: ${{ secrets.YOUR_GITHUB_PAT }}
       run: dotnet nuget remove source nuget && dotnet nuget add source --username "OWNER" --password $YOUR_GITHUB_PAT --store-password-in-clear-text --name nuget "https://api.nuget.org/v3/index.json"
     - name: Nuget push
-      run: dotnet nuget push "./packages/Bluesoft.Xperience.ScheduleTasks.snupkg"  --source "nuget"
+      run: dotnet nuget push "./packages/*.snupkg"  --source "nuget"
