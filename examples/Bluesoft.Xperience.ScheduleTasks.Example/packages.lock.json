@@ -1023,7 +1023,7 @@
           "System.IO.Hashing": "7.0.0"
         }
       },
-      "biqbluesoft.xbk.scheduletasks": {
+      "BiQBluesoft.Xperience.ScheduleTasks": {
         "type": "Project",
         "dependencies": {
           "Hangfire.AspNetCore": "[1.8.14, )",

@@ -9,6 +9,6 @@
     <PackageReference Include="kentico.xperience.webapp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Bluesoft.Xperience.ScheduleTasks\BiQBluesoft.XbK.ScheduleTasks.csproj" />
+    <ProjectReference Include="..\..\src\Bluesoft.Xperience.ScheduleTasks\Bluesoft.Xperience.ScheduleTasks.csproj" />
   </ItemGroup>
 </Project>
